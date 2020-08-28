@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding: 100px;
+  background-color: #555;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 750px;
+  background-color: yellow;
+}
+header {
+  background-color: brown;
+  padding: 7px 10px;
+}
+.menu {
+  background-color: bisque;
+  padding: 0 10px;
+}
+.menu ul {
+  list-style-type: none;
+  overflow: auto;
+}
+.menu ul li {
+  float: left;
+  padding: 10px 4px;
+}
+.wrapper {
+  overflow: hidden;
+}
+.wrapper .column {
+  float: left;
+  padding: 12px 10px;
+  padding-bottom: 9000px;
+  margin-bottom: -9000px;
+}
+.wrapper .column h2 {
+  margin-bottom: 15px;
+}
+.wrapper .column-left {
+  width: 70%;
+  background-color: darkkhaki;
+}
+.wrapper .column-left p {
+  margin-top: 20px;
+}
+.wrapper .column-right {
+  width: 30%;
+  background-color: greenyellow;
+}
+.wrapper .column-right ul {
+  padding: 20px 40px;
+  
+}
+footer {
+  background-color: grey;
+  padding: 10px 10px;
+}
